@@ -49,7 +49,7 @@ It is based upom a pre-trained Image Classification Model that comes with Keras 
 
 st.title("Food Vision 🍔📷")
 st.header("Identify what's in your food photos!")
-st.write("To know more about this app, visit [**GitHub**](https://github.com/gauravreddy08/food-vision)")
+st.write("To know more about this app, visit [**GitHub**](https://github.com/Rishab86515/Food_vision)")
 file = st.file_uploader(label="Upload an image of food.",
                         type=["jpg", "jpeg", "png"])
 
