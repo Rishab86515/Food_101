@@ -46,8 +46,8 @@ It is based upom a pre-trained Image Classification Model that comes with Keras 
 
 st.sidebar.markdown(body="""
 
-<th style="border:None"><a href="https://www.linkedin.com/in/rishab-kedia-iiitg/" target="blank"><img align="center" src="https://bit.ly/3wCl82U" alt="" height="40" width="40" /></a></th>
-<th style="border:None"><a href="https://github.com/Rishab86515" target="blank"><img align="center" src="https://bit.ly/3c2onZS" alt="rishab86515" height="40" width="40" /></a></th>
+<th style="border:None"><a href="https://www.linkedin.com/in/rishab-kedia-iiitg/" target="blank"><img align="center" src="./photos/linkedin.png" alt="" height="40" width="40" /></a></th>
+<th style="border:None"><a href="https://github.com/Rishab86515" target="blank"><img align="center" src="./photos/github.png" alt="rishab86515" height="40" width="40" /></a></th>
 
 """, unsafe_allow_html=True)
 #### Main Body ####
