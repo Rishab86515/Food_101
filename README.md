@@ -9,13 +9,13 @@ The demo video for the apps [**Demo-video**](https://drive.google.com/file/d/1Ck
 
 The Model actually beats the [**DeepFood**](https://arxiv.org/pdf/1606.05675.pdf) Paper's model which also trained on the same dataset.
 
-The Accuracy aquired by DeepFood was **77.4%** and our model's **85%** . Difference of **8%** ain't much, but the interesting thing is, DeepFood's model took **2-3 days** to train while our's barely took **90min**.
+The Accuracy aquired by DeepFood was **77.4%** and our model's **84.25%** . Difference of **7%** ain't much, but the interesting thing is, DeepFood's model took **2-3 days** to train while our's barely took **90min**.
 
 > ##### **Dataset used :**  **`Food101`**
 
 > ##### **Model Used :** **`EfficientNetB1`**
 
-> ##### **Accuracy :** **`85%`**
+> ##### **Accuracy :** **`84.25%`**
 
 ## Looks Great, How can I use it ?
 
