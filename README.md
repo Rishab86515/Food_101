@@ -39,7 +39,7 @@ Once an app is loaded,
 
 ## Okay Cool, How did you build it ?
 
-> If you actually want to know the Nuts and Bolts how the model was trained check out **[`model-training.ipynb`](https://github.com/gauravreddy08/food-vision/blob/main/model_training.ipynb) Notebook**
+> If you actually want to know the Nuts and Bolts how the model was trained check out **[`model-training.ipynb`](https://github.com/Rishab86515/Food_101/blob/main/food_vision.ipynb) Notebook**
 
 1. #### Imported Food101 dataset from **[Tensorflow Datasets](https://www.tensorflow.org/datasets)** Module.
 
