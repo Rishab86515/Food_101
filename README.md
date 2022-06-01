@@ -1,8 +1,8 @@
 # Food Vision :hamburger: :camera:
 
-As an introductory project to myself, I built an end-to-end **CNN Image Classification Model** which identifies the food in your image. 
+This an end-to-end **CNN Image Classification Model** which identifies the food in your image. 
 
-I worked out with a pre-trained Image Classification Model that comes with Keras and then retrained it on the infamous **Food101** Dataset.
+I worked out with a pre-trained Image Classification Model that comes with Keras and then retrained it on the **Food101** Dataset.
 
 ### Fun Fact 
 
@@ -23,11 +23,11 @@ Finally after training the model, I have exported it as `.hdf5` files and then i
 **Streamlit** turns data scripts into shareable web apps in minutes. 
 Once I got the App working on my local device I then deployed it using Streamlit’s invite-only **[sharing feature](https://streamlit.io/sharing)**
 
-### To view the Deployed app, [Click here](https://share.streamlit.io/gauravreddy08/food-vision/main/food-vision/app.py)
+### To view the Deployed app, [Click here](https://share.streamlit.io/rishab86515/food_101/main/app.py)
 
 > The app may take a couple of seconds to load for the first time, but it works perfectly fine.
 
-![Screenshot 2021-05-29 at 6.01.44 PM](./extras/app.png)
+![Screenshot 2021-05-29 at 6.01.44 PM](./p1/app.png)
 
 Once an app is loaded, 
 
@@ -89,11 +89,5 @@ At first glance the files in the repo may look intimidating and overwhelming. To
 * `requirements.txt`  : List of required dependencies required to run `app.py`
 * `extras/`  : Has some miscellaneous images and files used to write this README Document
 
-## Questions ?
 
-Post your queries on the [**Discussions**](https://github.com/gauravreddy08/food-vision/discussions) tab, else contact me : gauravreddy008@gmail.com
-
-
-
-######                                             *Inspired by **Daniel Bourke's** CS329s Lecture*
 
