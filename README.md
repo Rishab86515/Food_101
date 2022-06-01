@@ -43,11 +43,9 @@ Once an app is loaded,
 
 1. #### Imported Food101 dataset from **[Tensorflow Datasets](https://www.tensorflow.org/datasets)** Module.
 
-2. #### Becoming one with the Data : *Visualise - Visualize - Visualize*
+2. #### Data Visualization : 
 
-3. #### Setup Global dtype policy to **`mixed_float16`** to implement [**Mixed Precision Training**](https://www.tensorflow.org/guide/mixed_precision)
-
-   > Mixed precision is the use of both 16-bit and 32-bit floating-point types in a model during training to make it **run faster** and use **less memory**.
+3. ### Preprocessing the data
 
 4. #### Building the Model Callbacks 
 
@@ -55,39 +53,32 @@ Once an app is loaded,
 
    - **TensorBoard Callback :** TensorBoard provides the visualization and tooling needed for machine learning experimentation
 
+   - **ModelCheckpoint :** Saves saves our model's progress at various intervals so we can load it and resuse it later without having to retrain it
+
    - **EarlyStoppingCallback :** Used to stop training when a monitored metric has stopped improving.
 
    - **ReduceLROnPlateau :** Reduce learning rate when a metric has stopped improving.
 
+5. #### Setup Global dtype policy to **`mixed_float16`** to implement Mixed Precision Training
 
-5. #### Built a  [Fine Tuning](https://www.tensorflow.org/tutorials/images/transfer_learning)  Model
+   > Mixed precision is the use of both 16-bit and 32-bit floating-point types in a model during training to make it **run faster** and use **less memory**.
+
+
+
+5. #### Built a Fine Tuning Model
 
    This part tool the longest. In Deep Learning, you have to know which nob does what. Once yoy get experienced you'll what nobs you should turn to get the results you want. 
    **Architecture** : **`EffficientNetB1`**
    
-> Again if you want to dive deeper on how the model was trained check out **[`model-training.ipynb`](https://github.com/gauravreddy08/food-vision/blob/main/model_training.ipynb) Notebook**
 
 6. #### Evaluating and Deploying out Model to Streamlit
 
-   Once we have our model ready, its cruicial to evaluate it on our **custom data** : *the data our model has never seen*.
-
-   Training and evaluating a model on train and test data is cool, but making predictions on our own realtime images is another level.
+   Using different ways to evaluate our model
 
    Once we are satisfied with the results, we can export the model as a `.hdf5`  which can be used in future for model deployment.
 
-Once the model is exported then there comes the Deployment part. Check out  **[`app.py`](https://github.com/gauravreddy08/food-vision/blob/main/food-vision/app.py)** to get more insight on How I integrated it with Streamlit.
+Once the model is exported then there comes the Deployment part. Check out  **[`app.py`](https://github.com/Rishab86515/Food_101/blob/main/app.py)** to get more insight on How I integrated it with Streamlit.
 
-## Breaking down the repo
-
-At first glance the files in the repo may look intimidating and overwhelming. To avoid that, here is a quick guide :
-
-* `.gitignore` : tells what files/folders to ignore when committing
-* `app.py`  : Our Food Vision app built using Streamlit
-* `utils.py`  : Some of used fuctions in  `app.py`
-* `model-training.ipynb`  : Google Colab Notebook used to train the model
-* `model/`  : Contains all the models used as *.hfd5* files
-* `requirements.txt`  : List of required dependencies required to run `app.py`
-* `extras/`  : Has some miscellaneous images and files used to write this README Document
 
 
 
